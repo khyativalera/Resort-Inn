@@ -1,0 +1,206 @@
+.App {
+  text-align: center;
+}
+
+
+/* .App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+} */
+
+.App-link {
+  color: #61dafb;
+}
+
+.menu-container {
+  float: right;
+  overflow:visible;
+}
+
+.menu {
+  background: #ffffff;
+  border-radius: 8px;
+  top: 60px;
+  right: 0;
+  width: 300px;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(20px);
+  transition: opacity 0.4s ease, transform 0.4s ease, visibility 0.4s;
+  position: fixed;
+}
+
+.menu.active {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+  position: absolute;
+  
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu li {
+  border-bottom: 1px solid #dddddd;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #333333;
+  padding: 15px 20px;
+  display: block;
+}
+
+.menu-trigger {
+  background: #ffffff;
+  border-radius: 90px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 6px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  border: none;
+  vertical-align: middle;
+  transition: box-shadow 0.4s ease;
+  
+  
+}
+
+.menu-trigger:hover {
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
+
+ 
+}
+
+.menu-trigger span {
+  font-weight: 700;
+  vertical-align: middle;
+  font-size: 14px;
+  margin: 0 10px;
+}
+
+.menu-trigger img {
+  border-radius: 90px;
+}
+
+.searchBar{
+  float: right;
+  padding: 3px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background-color: #dddddd;
+}
+.searchBar, input{
+  background-color: #dddddd;
+  border: none;
+
+}
+
+.headerClass{
+ background-color: #333333;
+ padding: 5px 5px 2px 5px;
+}
+
+.logo{
+  border-radius: 90px;
+ 
+}
+
+.headerText{
+  color: aliceblue;
+  font-size: larger;
+  text-align: center;
+  justify-items: center;
+  font-weight: 700;
+  
+}
+
+.navLink{
+  color: aliceblue;
+  font-size: larger;
+  font-weight: 700;
+  float: right;
+  padding: 0 10px;
+  text-decoration: none;
+}
+
+.heroImg{
+  height: 300px;
+  width: 300px;
+
+}
+
+
+#section-resort-list
+{
+    margin-bottom: 32px;
+}
+
+
+#section-resort-list h1 , 
+#about-section h1 , 
+#login-section h1 , 
+#register-section h1
+{
+    margin:10px 0;
+
+}
+.resort-card 
+{
+    border: 1px solid #e3e3e3;
+    border-radius: 13px;
+    box-shadow: 0 2px 8px rgb(0 0 0 / 10%);
+    background-color: white;
+    overflow: hidden;
+}
+
+.resort-card img 
+{
+    height:300px;
+    object-fit: cover;
+    cursor: pointer ;
+    
+
+}
+
+.resortContent{
+    padding:0 16px
+}
+
+.resortContent h3
+{
+    margin-bottom: 3px;
+}
+
+#resort-description-section
+{
+    background-color: rgba(0 0 0,0.2);
+}
+
+
+#resort-description-section > div
+{
+    margin-top:13px;
+}
+
+.resort-description-section > img
+{
+    grid-column: 1;
+}
+
+.resort-description-content-area
+{
+    grid-column: 2/span 3;
+}

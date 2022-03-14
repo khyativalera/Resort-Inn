@@ -1,0 +1,201 @@
+{
+  "property": [
+    {
+      "id": 1,
+      "title": "Toronto Lovers Island",
+      "rating": "8.1",
+      "image": "https://resort-destination-app.s3.us-east-2.amazonaws.com/resort1.webp",
+      "price": "$123 CAD",
+      "type": "resort",
+      "description": "Perfect Hideaway for your Valentine's! You cannot go wrong with this.",
+      "houseRules": "",
+      "amenities": "",
+      "location": "Scarborough, Toronto",
+      "bestseller": true
+    },
+    {
+      "id": 2,
+      "title": "Brampton Special Condos",
+      "rating": "7",
+      "image": "https://resort-destination-app.s3.us-east-2.amazonaws.com/resort2.webp",
+      "price": "$32 CAD",
+      "type": "condos",
+      "description": "A family getaway where people all age has something to enjoy",
+      "houseRules": "",
+      "amenities": "",
+      "location": "Brampton, Toronto",
+      "bestseller": false
+    },
+    {
+      "id": 3,
+      "title": "Trinidad and Tobago Island Life Apartments",
+      "rating": "5",
+      "image": "https://resort-destination-app.s3.us-east-2.amazonaws.com/resort3.webp",
+      "price": "$94 CAD",
+      "type": "apartments",
+      "description": "Looking for a workation, we got you. We will provide food and Wifi so you can work and vacay!",
+      "houseRules": "",
+      "amenities": "",
+      "location": "",
+      "bestseller": true
+    },
+    {
+      "id": 4,
+      "title": "Netflix House",
+      "rating": "9",
+      "image": "https://hometheateracademy.com/wp-content/uploads/2020/09/Hidden-Surround-Sound-home-theater-e1602313294509.jpg",
+      "price": "$90 CAD",
+      "type": "apartments",
+      "description": "Have you watched this one yet? Try it with us with a mini theater in bed experience",
+      "houseRules": "",
+      "amenities": "",
+      "location": "London",
+      "bestseller": true
+
+    },
+    {
+      "id": 5,
+      "title": "Jostel",
+      "rating": "7.3",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/60/08/ef/hostel-entrance.jpg?w=1200&h=-1&s=1",
+      "price": "$13 CAD",
+      "type": "hostels",
+      "description": "Hostel can be joyous!",
+      "houseRules": "",
+      "amenities": "",
+      "location": "Fanshaw",
+      "bestseller": false
+    },
+    {
+      "id": 6,
+      "title": "Malibu Vibes",
+      "rating": "6",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/20/e8/c1/76/beach-chairs.jpg?w=1200&h=-1&s=1",
+      "price": "$32 CAD",
+      "type": "condos",
+      "description": "Hawaian Theme get away for beach lovers",
+      "houseRules": "",
+      "amenities": "",
+      "location": "",
+      "bestseller": false
+    },
+    {
+      "id": 7,
+      "title": "Taj",
+      "rating": "8.1",
+      "image": "https://www.thoughtco.com/thmb/DBOgHVGLrn4Hy6OOlJxcdExAYuE=/768x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/sunrise-at-taj-mahal--agra--uttar-pradash--india-583682538-5b91840bc9e77c0050bdc67b.jpg",
+      "price": "$78 CAD",
+      "type": "resorts",
+      "description": "Missing Home? Come to a full India like experience with street food and popular festivals waiting or you.",
+      "houseRules": "",
+      "amenities": "",
+      "location": "",
+      "bestseller": false
+    },
+    {
+      "id": 8,
+      "title": "Hakuna Matata",
+      "rating": "5.4",
+      "image": "https://cdna.artstation.com/p/assets/images/images/001/446/838/large/abir-mahamud-nipu-day.jpg?1446578388",
+      "price": "$150 CAD",
+      "type": "resorts",
+      "description": "Made just for kids, with more than 50 kids activities",
+      "houseRules": "",
+      "amenities": "",
+      "location": "",
+      "bestseller": false
+    },
+    {
+      "id": 9,
+      "title": "Breakfast In Bed",
+      "rating": "7.2",
+      "image": "https://craves.everybodyshops.com/wp-content/uploads/Tips-for-making-the-best-breakfast-in-bed-this-Valentines-Day.jpg",
+      "price": "$50 CAD",
+      "type": "bed and breakfasts",
+      "description": "Wake up to a delicious buffet like breakfast",
+      "houseRules": "",
+      "amenities": "",
+      "location": "Toronto",
+      "bestseller": false
+    },
+    {
+      "id": 10,
+      "title": "Hotel Bliss",
+      "rating": "9.2",
+      "image": "https://cdn.britannica.com/96/115096-050-5AFDAF5D/Bellagio-Hotel-Casino-Las-Vegas.jpg",
+      "price": "$300 CAD",
+      "type": "hotels",
+      "description": "4 star hotel with all ameneties and friendly staff.",
+      "houseRules": "",
+      "amenities": "",
+      "location": "Regina",
+      "bestseller": false
+    },
+    {
+      "id": 11,
+      "title": "Schitts Creek",
+      "rating": "7.9",
+      "image": "https://content.skyscnr.com/m/4bb6095d0dbb56fd/original/Motel-Nacht.jpg?resize=1800px:1800px&quality=100",
+      "price": "$33 CAD",
+      "type": "hotels",
+      "description": "Cheap stop for friends and family who just go tot hotels to sleep!",
+      "houseRules": "",
+      "amenities": "",
+      "location": "motels",
+      "bestseller": false
+    },
+    {
+      "id": 12,
+      "title": "Motel",
+      "rating": "8.3",
+      "image": "https://media-cdn.tripadvisor.com/media/photo-s/0d/50/22/d3/white-river-motel.jpg",
+      "price": "$50 CAD",
+      "type": "motels",
+      "description": "Hotel like experience at Motel price",
+      "houseRules": "",
+      "amenities": "",
+      "location": "Regina",
+      "bestseller": false
+    }
+  ],
+
+  "propertyType" : [
+    {
+      "id": "1",
+      "type": "Apartments",
+      "img": ""
+      
+    },
+    {
+      "id": "2",
+      "type": "Resorts",
+      "img": ""
+      
+    },
+    {
+      "id": "3",
+      "type": "Condos",
+      "img": ""
+      
+    },
+    {
+      "id": "4",
+      "type": "Hotels",
+      "img": ""
+      
+    },
+    {
+      "id": "5",
+      "type": "Bed and Breakfasts",
+      "img": ""
+      
+    },
+    {
+      "id": "6",
+      "type": "Motels",
+      "img": ""      
+    }
+
+  ]
+  
+}
