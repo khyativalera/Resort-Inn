@@ -1,5 +1,7 @@
-import React from 'react'
-import PropertyDescriptionCard from '../components/PropertyDescriptionCard'
+import React, { useState, useEffect } from "react";
+import { useParams } from "react-router-dom";
+import { FaMapMarkerAlt } from "react-icons/fa"
+import {FaCheckCircle} from "react-icons/fa"
 
 const PropertyDescription = () => {
     const [property , setProperty] = useState([{
@@ -14,10 +16,12 @@ const PropertyDescription = () => {
         location: "",
         bestseller: false
       }]);
+
+      const { id } = useParams();
     
       useEffect(()=>{
     
-        const URL = 'http://localhost:3000/property/'+id
+        const URL = `http://localhost:8000/property/${id}`
         //MAKE AN AJAX request
     
         fetch(URL)
@@ -30,14 +34,37 @@ const PropertyDescription = () => {
         })
         .catch(err=>console.log(err))
     
-      }, [])
+      }, [id])
     
   return (
-      <div>
-           {property.map(property=>( <PropertyDescriptionCard id={property.id} title={property.title}
-            image ={property.image} price={property.price} description={property.description} rating={property.rating}
-             type={property.type} amenities={property.amenities} location={property.location} bestseller= {property.bestseller}/>))}
-      </div>
+    <div className="container-fluid">
+    <div className="row">
+        <div className="col-12 mt-3">
+            <div className="card">
+                <div className="card-horizontal">
+                <div className="col-md-4">
+                        < img src={property.image} className="card-img" alt="Property Image"/>
+                    </div>
+                    <div className="card-body">
+                        <h4 className="card-title">{property.title}</h4>
+                        <div className="text-success"><strong> {property.price}</strong></div>
+                        <p className="card-text"> {property.description}</p>
+                        <div><FaMapMarkerAlt/>{property.location}</div>
+                        <hr/>
+                        <h4>Rules</h4>
+                        <ul>
+                            <li>No pets allowed</li>
+                            <li>No Smoking</li>
+                        </ul>
+                    </div>
+                </div>
+                <div className="card-footer">
+                    <small className="text-success"><FaCheckCircle/> {property.amenities}</small>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
     
   )
 }

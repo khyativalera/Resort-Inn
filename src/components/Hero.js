@@ -1,3 +1,4 @@
+import React, { Component }  from 'react';
 import { Carousel } from 'react-carousel-minimal';
 import image1 from '../assets/img/h1.jpg';
 import image2 from '../assets/img/h4.jpg';
