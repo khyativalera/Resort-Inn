@@ -9,9 +9,11 @@ const PropertyDescriptionCard = () => {
         <div className="col-12 mt-3">
             <div className="card">
                 <div className="card-horizontal">
-                    <div className="img-square-wrapper">
-                        <img className="propertyImage" src="" alt="Card image cap"/>
+                    
+                    <div className="col-md-4">
+                        < img src={property.image} className="card-img" alt="Property Image"/>
                     </div>
+                   
                     <div className="card-body">
                         <h4 className="card-title">Property title</h4>
                         <div className="text-success">$ Price CAD</div>

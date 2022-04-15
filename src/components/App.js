@@ -1,6 +1,7 @@
 import '../assets/css/App.css';
 import '../assets/css/utilities.css';
 import '../assets/css/footer.css';
+import React, { Component }  from 'react';
 import { BrowserRouter, Routes, Route} from 'react-router-dom';
 import HomePage from '../Pages/HomePage';
 import Property from '../Pages/Property';
@@ -18,12 +19,16 @@ function App() {
       <Route path="Property" element={<Property/>}/>
       <Route path="SignUp" element={<SignUp/>}/>
       <Route path="Login" element={<Login/>}/>
-      <Route path="PropertyDescription" element={<PropertyDescription/>}/>
-      <Route path="PropertyTypeList" element={<PropertyTypeList/>}/>
+      
+      <Route path="/property/:id" element={<PropertyDescription />} />
+      <Route path="/propertyType/:title" element={<PropertyTypeList />} />
       
     </Routes>   
     </BrowserRouter>
   );
 }
+
+{/* <Route path="PropertyDescription" element={<PropertyDescription/>}/>
+      <Route path="PropertyTypeList" element={<PropertyTypeList/>}/> */}
 
 export default App;
