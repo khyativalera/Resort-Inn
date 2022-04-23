@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { FaMapMarkerAlt } from "react-icons/fa"
 import {FaCheckCircle} from "react-icons/fa"
+import Header from '../components/Header'
+import Footer from '../components/Footer'
 
 const PropertyDescription = () => {
     const [property , setProperty] = useState([{
@@ -21,7 +23,7 @@ const PropertyDescription = () => {
     
       useEffect(()=>{
     
-        const URL = `http://localhost:8000/property/${id}`
+        const URL = `http://localhost:5001/properties/${id}`
         //MAKE AN AJAX request
     
         fetch(URL)
@@ -37,6 +39,8 @@ const PropertyDescription = () => {
       }, [id])
     
   return (
+    <div>
+      <Header/><br/><br/>
     <div className="container-fluid">
     <div className="row">
         <div className="col-12 mt-3">
@@ -55,6 +59,7 @@ const PropertyDescription = () => {
                         <ul>
                             <li>No pets allowed</li>
                             <li>No Smoking</li>
+                            <li>Emergency contact : 911</li>
                         </ul>
                     </div>
                 </div>
@@ -64,6 +69,8 @@ const PropertyDescription = () => {
             </div>
         </div>
     </div>
+</div><br/><br/>
+<Footer/>
 </div>
     
   )

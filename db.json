@@ -9,7 +9,7 @@
       "type": "resort",
       "description": "Perfect Hideaway for your Valentine's! You cannot go wrong with this.",
       "houseRules": "",
-      "amenities": "",
+      "amenities": "Wifi, Pool",
       "location": "Scarborough, Toronto",
       "bestseller": true
     },
@@ -22,7 +22,7 @@
       "type": "condos",
       "description": "A family getaway where people all age has something to enjoy",
       "houseRules": "",
-      "amenities": "",
+      "amenities": "Wifi, Gym",
       "location": "Brampton, Toronto",
       "bestseller": false
     },
@@ -35,7 +35,7 @@
       "type": "apartments",
       "description": "Looking for a workation, we got you. We will provide food and Wifi so you can work and vacay!",
       "houseRules": "",
-      "amenities": "",
+      "amenities": "Wifi, Sports Room",
       "location": "",
       "bestseller": true
     },
@@ -48,7 +48,7 @@
       "type": "apartments",
       "description": "Have you watched this one yet? Try it with us with a mini theater in bed experience",
       "houseRules": "",
-      "amenities": "",
+      "amenities": "Wifi, Room Service, Breakfast",
       "location": "London",
       "bestseller": true
 
@@ -62,7 +62,7 @@
       "type": "hostels",
       "description": "Hostel can be joyous!",
       "houseRules": "",
-      "amenities": "",
+      "amenities": "Wifi, Gym, Library, Bar",
       "location": "Fanshaw",
       "bestseller": false
     },
@@ -75,7 +75,7 @@
       "type": "condos",
       "description": "Hawaian Theme get away for beach lovers",
       "houseRules": "",
-      "amenities": "",
+      "amenities": "Wifi, Bar, Club",
       "location": "",
       "bestseller": false
     },
@@ -88,7 +88,7 @@
       "type": "resorts",
       "description": "Missing Home? Come to a full India like experience with street food and popular festivals waiting or you.",
       "houseRules": "",
-      "amenities": "",
+      "amenities": "Wifi, Bar, Restaurant",
       "location": "",
       "bestseller": false
     },
@@ -101,7 +101,7 @@
       "type": "resorts",
       "description": "Made just for kids, with more than 50 kids activities",
       "houseRules": "",
-      "amenities": "",
+      "amenities": "Wifi, Pool",
       "location": "",
       "bestseller": false
     },
@@ -114,7 +114,7 @@
       "type": "bed and breakfasts",
       "description": "Wake up to a delicious buffet like breakfast",
       "houseRules": "",
-      "amenities": "",
+      "amenities": "Wifi, Room-service",
       "location": "Toronto",
       "bestseller": false
     },
@@ -127,7 +127,7 @@
       "type": "hotels",
       "description": "4 star hotel with all ameneties and friendly staff.",
       "houseRules": "",
-      "amenities": "",
+      "amenities": "Wifi, Pet-friendly",
       "location": "Regina",
       "bestseller": false
     },
@@ -140,7 +140,7 @@
       "type": "hotels",
       "description": "Cheap stop for friends and family who just go tot hotels to sleep!",
       "houseRules": "",
-      "amenities": "",
+      "amenities": "Wifi, Adjoining rooms",
       "location": "motels",
       "bestseller": false
     },
@@ -153,7 +153,7 @@
       "type": "motels",
       "description": "Hotel like experience at Motel price",
       "houseRules": "",
-      "amenities": "",
+      "amenities": "Wifi, Key",
       "location": "Regina",
       "bestseller": false
     }
@@ -163,37 +163,47 @@
     {
       "id": "1",
       "type": "Apartments",
-      "img": ""
+      "img": "https://resort-destination-app.s3.us-east-2.amazonaws.com/resort3.webp"
       
     },
     {
       "id": "2",
       "type": "Resorts",
-      "img": ""
+      "img": "https://cdna.artstation.com/p/assets/images/images/001/446/838/large/abir-mahamud-nipu-day.jpg?1446578388"
       
     },
     {
       "id": "3",
       "type": "Condos",
-      "img": ""
+      "img": "https://resort-destination-app.s3.us-east-2.amazonaws.com/resort2.webp"
       
     },
     {
       "id": "4",
       "type": "Hotels",
-      "img": ""
+      "img": "https://content.skyscnr.com/m/4bb6095d0dbb56fd/original/Motel-Nacht.jpg?resize=1800px:1800px&quality=100"
       
     },
     {
       "id": "5",
       "type": "Bed and Breakfasts",
-      "img": ""
+      "img": "https://craves.everybodyshops.com/wp-content/uploads/Tips-for-making-the-best-breakfast-in-bed-this-Valentines-Day.jpg"
       
     },
     {
       "id": "6",
       "type": "Motels",
-      "img": ""      
+      "img": "https://media-cdn.tripadvisor.com/media/photo-s/0d/50/22/d3/white-river-motel.jpg"     
+    },
+    {
+      "id": "7",
+      "type": "Hostel",
+      "img": "https://cdn.internationalstudent.com/images/stock-images/youth-hostel.jpg"     
+    },
+    {
+      "id": "8",
+      "type": "Restaurants",
+      "img": "https://www.cntower.ca/sites/default/files/styles/16_9_scale_and_crop_large/public/images/360-restaurant.jpg?h=5ce0254a&itok=BGI0x2uG"     
     }
 
   ]

@@ -4,22 +4,21 @@ import Footer from '../components/Footer';
 import PropertyCard from '../components/PropertyCard';
 import { useParams } from "react-router-dom";
 
-const PropertyTypeList = (props) => {
+const PropertyTypeList = () => {
     
     const [properties , setProperties] = useState([{
         id: 0,
-        title: "",
+        type: "",
         image: "",
-        price: "",
-        description: ""
+        
       }]);
-      console.log(props)
+    
 
-      let params = useParams();
+ 
     
       useEffect(()=>{
     
-        const URL = 'http://localhost:8000/property?type='+props.type
+        const URL = 'http://localhost:5001/propertType'
         //MAKE AN AJAX request
     
         fetch(URL)
@@ -39,7 +38,7 @@ const PropertyTypeList = (props) => {
         <div>
           <Header/>
           <main>
-          {properties.map(property=>( <PropertyCard id={property.id} title={property.title} image ={property.image} price={property.price} description={property.description} />))}
+          {properties.map(property=>( <PropertyCard id={property.id} type={property.type} image ={property.img}  />))}
             
           </main>
           <Footer/>

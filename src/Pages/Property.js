@@ -19,7 +19,7 @@ const Property = () => {
 
   useEffect(()=>{
 
-    const URL = "http://localhost:8000/property"
+    const URL = "http://localhost:5001/properties"
     //MAKE AN AJAX request
 
     fetch(URL)
