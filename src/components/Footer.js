@@ -3,7 +3,7 @@ import { FaInstagram } from "react-icons/fa";
 import {FaSnapchatGhost} from "react-icons/fa";
 import {FaFacebook} from "react-icons/fa";
 import {FaTwitter} from "react-icons/fa";
-
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -11,8 +11,8 @@ const Footer = () => {
         <footer>
             <div class="social"><a href="#"><FaInstagram className="icon"/></a><a href="#"><FaSnapchatGhost className="icon"/></a><a href="#"><FaFacebook className="icon"/></a><a href="#"><FaTwitter className="icon"/></a></div>
             <ul class="list-inline">
-                <li class="list-inline-item"><a href="#">Home</a></li>
-                <li class="list-inline-item"><a href="#">Services</a></li>
+                <li class="list-inline-item"><Link to="/">Home</Link></li>
+                <li class="list-inline-item"><Link to="Property">Services</Link></li>
                 <li class="list-inline-item"><a href="#">About</a></li>
                 <li class="list-inline-item"><a href="#">Terms</a></li>
                 <li class="list-inline-item"><a href="#">Privacy Policy</a></li>

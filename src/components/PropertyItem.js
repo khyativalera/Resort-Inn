@@ -6,13 +6,13 @@ const PropertyItem = (props) => {
   return (
     <div className="resort-card">
 
-    <Link to = "PropertyTypeList" params={{ type: props.type }}> 
-        <img src={props.image} alt="" type={props.type}/>   
+    <Link to={`properties/type/${props.type}`}> 
+        <img src={props.img} alt="Property Image"/>   
     </Link> 
 
     <div className="resortContent">
         <h3>{props.title}</h3>
-        <p>${props.price} per night</p>
+        <h3><br/></h3>
     </div>
     
 </div>

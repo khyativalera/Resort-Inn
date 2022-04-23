@@ -10,7 +10,7 @@ const SignUp = () => {
       <div>
           <Header/>
           <main>
-    <div className="containerSignUp">
+    <div className="container col-md-3 center">
 		<div className="row">
 			<div className="panel panel-primary">
 				<div className="panel-body">

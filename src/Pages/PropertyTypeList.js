@@ -15,11 +15,12 @@ const PropertyTypeList = (props) => {
       }]);
       console.log(props)
 
-      let params = useParams();
+      const { type } = useParams();
+      console.log("***********************"+type)
     
       useEffect(()=>{
     
-        const URL = 'http://localhost:8000/property?type='+props.type
+        const URL = `http://localhost:5001/properties/type/${type}`
         //MAKE AN AJAX request
     
         fetch(URL)
