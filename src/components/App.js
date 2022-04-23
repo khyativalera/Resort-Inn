@@ -21,7 +21,7 @@ function App() {
       <Route path="Login" element={<Login/>}/>
       
       <Route path="/property/:id" element={<PropertyDescription />} />
-      <Route path="/propertyType/:title" element={<PropertyTypeList />} />
+      <Route path="/properties/type/:type" element={<PropertyTypeList />} />
       
     </Routes>   
     </BrowserRouter>
