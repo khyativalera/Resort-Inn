@@ -6,7 +6,7 @@ const PropertyItem = (props) => {
   return (
     <div className="resort-card">
 
-    <Link to={`propertyType/${props.type}`}> 
+    <Link to={`properties/type/${props.type}`}> 
         <img src={props.img} alt="Property Image"/>   
     </Link> 
 
